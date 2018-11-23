@@ -1,18 +1,16 @@
 class Compte:
-    """ Classe représentant un compte bancaire"""
+    """ Class representing a bank account"""
 
-    def __init__(self, nom):
-        self.nom = nom
-        self.solde = 0.0
+    def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
 
-    def afficher_solde(self):
-        print(self.solde)
-        return
+    def display_balance(self):
+        print(self.balance)
 
-    def effectuer_retrait(self, montant):
-        self.solde -= montant
-        return
 
-    def effectuer_depot(self, montant):
-        self.solde += montant
-        return
+    def set_balance(self, balance):
+        self.balance = balance
+
+    def set_balance(self, balance):
+        self.balance = balance
