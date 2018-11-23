@@ -1,8 +1,8 @@
-import Compte
+from Account import Account
 
 def main():
-    compte_courant = Compte("BNC")
-    print(compte_courant.nom)
+    cpte = Account("BNC", 500)
+    print(cpte.name)
 
 
 if __name__ == "__main__":
