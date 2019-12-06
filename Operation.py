@@ -6,4 +6,5 @@ class Operation:
         self.category=category
         self.amount=amount
     
-
+    def print_operation(self):
+        print(self.optype,self.category,self.amount)

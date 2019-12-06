@@ -6,6 +6,10 @@ def main():
     print("Compte :", cpte.name)
 
     ope  = Operation("DEP","EPICERIE",25)
+    ope.print_operation()
+    cpte.add_operation(ope)
+    bal = cpte.get_balance()
+    print(bal)
 
 
 if __name__ == "__main__":
