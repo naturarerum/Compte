@@ -11,5 +11,9 @@ class Account:
     def set_balance(self, balance):
         self.balance = balance
 
-    def get_balance(self, balance):
-        self.balance = balance
+    def get_balance(self):
+        return self.balance
+    
+    def add_operation(self,Operation):
+        self.balance  = self.balance + Operation.amount
+        print(self.balance)
