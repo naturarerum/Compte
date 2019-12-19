@@ -16,4 +16,4 @@ class Account:
     
     def add_operation(self,Operation):
         self.balance  = self.balance + Operation.amount
-        print(self.balance)
+        #print(self.balance)
